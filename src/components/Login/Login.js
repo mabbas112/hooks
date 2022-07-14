@@ -92,7 +92,7 @@ const Login = (props) => {
   };
   const submitHandler = (event) => {
     event.preventDefault();
-    ctx.onLogin(formFields.email, formFields.password);
+    ctx.loginHandler(formFields.email, formFields.password);
   };
 
   return (

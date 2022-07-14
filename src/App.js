@@ -8,7 +8,6 @@ import AuthContext from './store/auth-context';
 function App() {
 
   const ctx = useContext(AuthContext);
-  console.log("ctx: ", ctx);
   return (
     <React.Fragment>
       <MainHeader />
